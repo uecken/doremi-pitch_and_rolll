@@ -1,7 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-	
-})
-music.setBuiltInSpeakerEnabled(true)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.B)) {
         if (input.rotation(Rotation.Pitch) < -45) {
